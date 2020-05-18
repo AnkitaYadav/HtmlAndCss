@@ -1,0 +1,64 @@
+
+.body
+{
+ background-color:#f4f4f4;
+}
+.container
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.main-header
+{
+  border: 1px soild black;
+  background-color:#000;
+  color:#fff ;
+  height: 100px;
+  padding-top: 1em;
+  text-align: center;
+}
+.nav{
+    background-color: grey;
+    height: 50px;
+}
+.nav li{
+  display: inline;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  padding-bottom: 1px;
+}
+
+ .main-block
+ {
+     float: left;
+     width:70%;
+     box-sizing: border-box;
+     padding:10px;
+     border: 1px solid black;
+ }
+ .side-block
+ {
+     float: right;
+     width:30%;
+     background-color: darkgray;
+     box-sizing: border-box;
+     padding:10px;
+     color: whitesmoke;
+
+ }
+.clr
+{
+    clear: both;
+}
+
+.block
+{
+  width: 33.3%;
+  float: left;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 1em;
+}
