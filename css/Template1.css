@@ -1,0 +1,47 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+#nav-bar
+{
+  background-color: black;
+  color: white;
+   height: 250px;
+}
+
+#nav-bar ul{
+ list-style: none;
+ padding: 13px;
+ font-size: 18px;
+ text-transform: uppercase;
+}
+#nav-bar li{
+    display: inline;
+    /* font-size: 18px;
+    text-transform: uppercase; */
+}
+
+#nav-bar a{
+
+    list-style: none;
+    color: whitesmoke;
+    padding-right: 20px;
+}
+
+#nav-bar select
+{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    
+}
+.nav-bar-ddl  div{
+    display: none;
+}
+.nav-bar-ddl:hover div
+{
+    display: block;
+}
